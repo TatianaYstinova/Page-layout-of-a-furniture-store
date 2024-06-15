@@ -1,0 +1,52 @@
+$main-fill-color:#fff;
+$main-color-text:black;
+$main-font:"PT Sans", sans-serif;
+
+body{
+    width:1920px;
+    height:4171px;
+    position: relative;
+    margin:0;
+    background-color:$main-fill-color;
+}
+.info-container{
+    position: relative;
+    width: 1296px;
+    height: 110px;
+    margin-left: 312px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 40px 0px 40px 0px;
+}
+.logo{
+    position: relative;
+    width:108px;
+    height:30px;
+}
+.menu-navigation{
+    position: relative;
+    width: 613px;
+    height: 22px;
+    gap:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+p{
+    position: relative;
+    width: 85px;
+    height: 22px;
+    color: $main-color-text;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22,4px;
+}
+.input-with-icon{
+    background: url('./img/ic_round-search.png') no-repeat;
+    width: 194px;
+    height: 24px;
+    gap: 20px;
+}
