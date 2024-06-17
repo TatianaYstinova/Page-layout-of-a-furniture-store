@@ -1,0 +1,10 @@
+$main-fill-color: #fff;
+.company-details-container{
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    background-color:$main-fill-color;
+    margin-top: 1000px;
+}
