@@ -164,38 +164,29 @@ span {
     height: 250px;
     border-radius: 20px;
     background-color: $fram-color-service;
-}
-.shipment{
-    position: relative;
-    width: 182px;
-    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
     
 }
+.shipment{
+    border-radius: inherit;
+    height: inherit;
+    object-fit: cover;
+}
 .text-of-frame-content{
-    width: 236px;
-    height: 54;
     font-family: $main-font;
     font-weight: 700;
     font-size: 19px;
     line-height: 26.6px;
     color: $font-color-of-pictures;
-    margin-left: 30px;
-}
-.storage-of-goods{
-    background-size: 150px;
-    background-position: right 58px top 25%;
-    background-repeat: no-repeat;
-    background-image: url('./img/icons8-деревянная-коробка-50.png')
-}
-.warehouse-operations{
-    background-size: 150px;
-    background-position: right 58px top 25%;
-    background-repeat: no-repeat;
-    background-image: url('./img/icons8-склад-50.png')
-}
-.mooring-operations{
-    background-size: 150px;
-    background-position: right 58px top 25%;
-    background-repeat: no-repeat;
-    background-image: url('./img/icons8-корабль-50.png')
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background:rgb(33 31 31);
+    text-align: center;
+    width: 100%;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
 }
